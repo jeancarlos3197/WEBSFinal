@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viajes</title>
+    <link rel="stylesheet" href="./format.css" />
+    <script src="./datos.js"></script>
+    <link rel="stylesheet" href="./frmJean.css" />
+  </head>
+  <body>
+    <section class="main">
+      <table>
+        <tbody>
+          <tr>
+            <td class="contenedor-td">
+              <button
+                class="btn-jean jean-datos"
+                type="button"
+                onclick="datosJeanViajes()"
+              >
+                Mostrar Datos
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td class="contenedor-td">
+              <textarea id="txtJeanViajes" hidden></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td class="imgs">
+              <img
+                class="img"
+                src="https://i.imgur.com/QX1X5ud.png"
+                alt=""
+                hidden
+                width="500px"
+              />
+              <img
+                class="img"
+                src="https://www.peru.travel/Contenido/Destino/Imagen/es/5/1.2/Principal/SouthAmericaPeru2017_1010_180704-5912_AGP_HDR.jpg"
+                alt="Ica"
+                hidden
+                width="500px"
+              />
+              <img
+                class="img"
+                src="https://lalupa.pe/wp-content/uploads/2020/01/lalupa.pe-los-fascinantes-atractivos-de-nasca-por-sus-79aniversario-de-creacion-provincial.jpg"
+                alt="Nazca"
+                hidden
+                width="500px"
+              />
+              <img
+                class="img"
+                src="https://elcomercio.pe/resizer/6htf8i9NGqhAmFcQNJTP7_TfTbU=/980x0/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/JQ6Q3CG75BHIJFAEDYFCZWTKIQ.jpg"
+                alt="Camaná"
+                hidden
+                width="500px"
+                aria-label="Camaná"
+              />
+              <img
+                class="img"
+                src="https://www.rumbosdelperu.com/wp-content/uploads/2017/03/playas-arequipa-moquegua-giuliana-taipe-1.jpg"
+                alt="Mollendo"
+                hidden
+                width="500px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="contenedor-td">
+              <form action="index.html" method="post" >
+                <button class="btn-jean jean-comidas back" type="submit">
+                  Atras
+                </button>
+              </form>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>

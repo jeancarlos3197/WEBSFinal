@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main table {
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+}
+h2 ~ p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+h3 ~ textarea {
+  width: 100%;
+}
+
+tr:nth-child(3) > td {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn-jean {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.jean-viajes {
+  background-color: #4caf50;
+  margin-right: 10px;
+}
+.jean-viajes:hover {
+  background-color: #29602b;
+  transition: 0.7;
+}
+
+.jean-comidas {
+  background-color: #008cba;
+}
+.jean-comidas:hover {
+  background-color: #01516c;
+  transition: 0.7;
+}
+
+textarea{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.jean-datos {
+  background-color: #f44336;
+  text-align: center;
+  margin: 20px 0px;
+}
+.jean-datos:hover {
+  background-color: #84251e;
+  transition: 0.7s ;
+}
+
+.contenedor-td{
+  text-align: center;
+}
+
+.imgs{
+  display: flex;
+  flex-direction: column;
+}
+.img{
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.back{
+  margin-top: 20px;
+}
